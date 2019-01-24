@@ -1,0 +1,86 @@
+body {
+    /*background-color: #efefef;*/
+    font-family: 'Arimo', sans-serif; /* google fonts */
+    /*background: #efefef url('background.png') repeat;*/
+    background: url(https://forum.myarena.ru/public/style_images/myarena/bright_squares1.png) repeat;
+    color: #5a5a5a;
+}
+
+.container {
+    /*background-color: #FFFFFF;*/
+    padding: 20px;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 2px rgba(0,0,0,.05);
+    /*border: 1px solid #e2e2e2;*/
+}
+
+.faicon:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+    margin-left: -40px;
+    font-size: 25px;
+    background-color: #4bbd5cbf;
+    border-radius: 50%;
+    padding: 10px;
+    color: #fff;
+}
+
+.faicon_fail:before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    margin-left: -40px;
+    font-size: 25px;
+    background-color: #bd4b4bbf;
+    border-radius: 50%;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #fff;
+}
+
+.form-background {
+    border:1px solid #ced4da;
+    padding:5px;
+    border-radius:.2rem;
+    background-color:#f9f9f9;
+}
+
+p > a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+p > a:hover {
+    color: #fff;
+}
+
+.bd-callout {
+    padding: 10px;
+    /*margin-top: 1.25rem;*/
+    margin-bottom: 1.25rem;
+    border: 1px solid #eee;
+    border-left-width: .25rem;
+    border-radius: .25rem;
+}
+.bd-callout-warning {
+    border-left-color: #f0ad4e;
+}
+.bd-callout-danger {
+    border-left-color: #f04e4e;
+}
+.bd-callout-info {
+    border-left-color: #4e94f0;
+}
+
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 0;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 0;
+    background-color: transparent;
+}
